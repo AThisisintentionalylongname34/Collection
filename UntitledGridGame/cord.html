@@ -58,7 +58,6 @@
     </table>
 </body>
 <script>
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects for creating objects
 
     var player = {
         cord: {
@@ -71,14 +70,7 @@
         },
         hp: 10
     };
-    var obj = {
-        tree: {cord: [[2,0],[2,1]]}
-    };
-    for (let i = 0; i < obj.tree.cord.length; i++) {
-        document.getElementsByClassName("row")[obj.tree.cord[i][1]].getElementsByClassName("col")[obj.tree.cord[i][0]].textContent = "tree";
-        console.log(i);
     }
-
     const PlayerLocation = document.getElementById("playerlocation");
     document.addEventListener("keydown", function (event) {
         // Im too lazy to fix this lol
