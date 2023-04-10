@@ -26,3 +26,7 @@ table {
     margin: 0px;
     padding: 0px;
 }
+
+button {
+    touch-action: manipulation;
+}
