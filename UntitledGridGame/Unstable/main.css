@@ -30,6 +30,7 @@ button {
     background-color: white;
     border: 1px black solid;
     touch-action: manipulation;
+    color:black;
 }
 button:active {
     background-color: rgb(182, 182, 182);
