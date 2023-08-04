@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled Grid Game</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body tabindex="-1">
+    <h2><u>Release 2.5</u></h2>
+    <div id="div_resource">
+        <p>wood: 0</p>
+    </div>
+    <table>
+        <tbody id="table_main">
+            <tr class="row">
+                <td><div class="col" style="background-color: rgb(0,255,0);"></div></td>
+                <td><div class="col"></div></td>
+                <td><div class="col"></div></td>
+            </tr>
+            <tr class="row">
+                <td><div class="col"></div></td>
+                <td><div class="col"></div></td>
+                <td><div class="col"></div></td>
+            </tr>
+            <tr class="row">
+                <td><div class="col"></div></td>
+                <td><div class="col"></div></td>
+                <td><div class="col"></div></td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="cord_player">player : (0,0)</p>
+        <button id="btn_collect_manual" onclick="collect_manual()" style="opacity: 0;" disabled>Get wood</button>
+        <div class="arrowkeys">
+            <button style="opacity: 0;" disabled>a</button><button onclick="btn_arrowkeys(1)">Up</button><button style="opacity: 0;" disabled>a</button><br>
+            <button onclick="btn_arrowkeys(2)">Left</button><button onclick="btn_arrowkeys(4)">Down</button><button onclick="btn_arrowkeys(3)">Right</button><br>
+        </div>
+
+
+</body>
+<script src="index.js"></script>
+</html>

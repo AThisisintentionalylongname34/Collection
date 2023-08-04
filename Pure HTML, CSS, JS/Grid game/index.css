@@ -1,0 +1,57 @@
+td {
+    border: 1px solid black;
+    padding: 0px;
+    overflow: hidden;
+}
+
+td>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#table_main>tr>td {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+#table_main>tr>td>div {
+    max-height: 75px;
+    min-height: 75px;
+}
+
+#table_resource>tr>td {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+#table_resource>tr>td>div {
+    max-height: 25px;
+    min-height: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+}
+.arrowkeys>button {
+    height:50px;
+    width:50px;
+    margin: 1px;
+    padding: 0px;
+}
+button {
+    background-color: white;
+    border: 1px black solid;
+    touch-action: manipulation;
+    color:black;
+}
+button:active {
+    background-color: rgb(177, 177, 177);
+}
+
+#div_resource {
+    display: inline-block;
+}
