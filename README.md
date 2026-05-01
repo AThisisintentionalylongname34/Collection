@@ -1,4 +1,4 @@
-A Dump for all my bad-quality games. If the game gets popular enough, a new repository will be crated.
+Was a Dump for all my bad quality games.
 
 <!---
 AThisisintentionalylongname34/AThisisintentionalylongname34 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
